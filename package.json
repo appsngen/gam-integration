@@ -1,0 +1,11 @@
+{
+    "name": "gam-integration",
+    "private": true,
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "4.13.4",
+        "request": "2.79.0",
+        "underscore": "1.8.3",
+        "nconf": "0.8.4"
+    }
+}

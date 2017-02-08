@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>CMS</title>
+    <!-- styles -->
+    <% _.each(styles, function(styleTag) { %>
+        <%= styleTag %>
+    <% }); %>
+
+    <!-- imports -->
+    <% _.each(imports, function(importTag) { %>
+        <%= importTag %>
+    <% }); %>
+</head>
+<body>
+    <!-- widgets -->
+    <% _.each(widgets, function(widget) { %>
+        <div>
+            <%= widget.html %>
+        </div>
+    <% }); %>
+
+    <!-- scripts -->
+    <% _.each(scripts, function(scriptTag) { %>
+        <%= scriptTag %>
+    <% }); %>
+</body>
+</html>
