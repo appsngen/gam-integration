@@ -6,6 +6,7 @@
         "express": "4.13.4",
         "request": "2.79.0",
         "underscore": "1.8.3",
-        "nconf": "0.8.4"
+        "nconf": "0.8.4",
+        "opn": "4.0.2"
     }
 }

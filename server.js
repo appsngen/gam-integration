@@ -3,11 +3,14 @@
 
     var path = require('path');
     var fs = require('fs');
+    var http = require('http');
     var express = require('express');
     var makeRequest = require('request');
     var _ = require('underscore');
     var nconf = require('nconf');
+    var opn = require('opn');
     var cmsApp = express();
+    var cmsHost, cmsPort, cmsUrl, cmsServer;
 
     var handleCmsPageRequest = function (request, response) {
         var integrationRequest = {
@@ -42,13 +45,20 @@
         });
     };
 
-    nconf.file(path.join(__dirname, 'config.json'));
     cmsApp.get('/', handleCmsPageRequest);
-    cmsApp.listen(nconf.get('serverPort'), nconf.get('serverHost'), function (error) {
-        if (error) {
-            console.log(error);
-        } else {
-            console.log('cms: http://' + nconf.get('serverHost') + ':' + nconf.get('serverPort'));
-        }
+
+    nconf.file(path.join(__dirname, 'config.json'));
+    cmsHost = nconf.get('serverHost');
+    cmsPort = nconf.get('serverPort');
+    cmsUrl = 'http://' + cmsHost + ':' + cmsPort;
+
+    cmsServer = http.createServer(cmsApp);
+    cmsServer.listen(cmsPort, cmsHost);
+    cmsServer.on('listening', function () {
+        console.log('cms: ' + cmsUrl);
+        opn(cmsUrl);
+    });
+    cmsServer.on('error', function (error) {
+        console.log('cms: unable to start server', cmsUrl, error);
     });
 }());

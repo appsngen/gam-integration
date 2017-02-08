@@ -8,6 +8,4 @@ In order to run this sample:
 
   3) run `node server` in the root folder
 
-  4) open provided link in browser
-
 Local server host and port could be configured in `config.json` file.
