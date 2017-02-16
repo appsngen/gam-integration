@@ -1,5 +1,6 @@
 {
-    "integrationJsonUrl": "http://qa.appsngen.com/gam-integration/integration.json?token=trustme",
+    "accessToken": "eyJhbGciOiJTSEExd2l0aFJTQSIsInR5cCI6IkpPU0UiLCJjdHkiOiJqc29uIiwieDV0IjoiYU1ZY1ZjdW9MSjc2dk5xYXBrQXFINDVuNmJBPSJ9.eyJpc3MiOiJhcHBzbmdlbiIsInN1YiI6IndpZGdldDp1cm46YXBwOnRvcF9pbnZlc3Rpbmc6Z2FtLWludGVncmF0aW9uIiwiZXhwIjoxODAyNzc1MDk5OTQ1LCJpYXQiOjE0ODcyNDIzMzQ0MDcsImp0aSI6ImRmNjVmNDRhLTMwNGItNGMxYy1hNmYxLTc1YTcxOWQ5ZDA4ZCIsImF1ZCI6eyJ1c2VyIjoiZGVtb0BhcHBzbmdlbi5jb20iLCJvcmdhbml6YXRpb24iOiJ1cm46b3JnOnRvcF9pbnZlc3RpbmciLCJ1c2VyUm9sZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfU0FMRVMiLCJST0xFX0RFVkVMT1BFUiJdLCJkb21haW5zIjpbIi8vKi5hcHBzbmdlbi5jb20iLCJodHRwOi8vMTI3LjAuMC4xOjE4ODg4Il19LCJ0eXAiOiJhdCJ9.hLXZ3xkLEsUY2odKgyG1HNWZeTF1MMp6os0LtI73QfsisVls1Sff/h61GUwiDUlSPMomY7Ie3cx8SNikOYPZq8ZXkzjgGXrnIcOGQI/TR1UInDjsLeJCuR7cJyeptuAPOeDbZ5GgOioKA8XMAqOhwTyQRk5Bsggq2Ycc2M7TzEc=",
+    "integrationJsonUrl": "https://local.appsngen.com/viewer/content/widgets/urn%3Aapp%3Atop_investing%3Agam-integration/0.0.1.1/integration.json",
     "serverHost": "127.0.0.1",
-    "serverPort": "8888"
+    "serverPort": "18888"
 }

@@ -13,8 +13,13 @@
     var cmsHost, cmsPort, cmsUrl, cmsServer;
 
     var handleCmsPageRequest = function (request, response) {
+        var token = nconf.get('accessToken');
+        var url = nconf.get('integrationJsonUrl') +
+            '?token=' + encodeURIComponent(token) +
+            '&parent=' + encodeURIComponent(cmsUrl);
+
         var integrationRequest = {
-            url: nconf.get('integrationJsonUrl'),
+            url:  url,
             json: true
         };
 
