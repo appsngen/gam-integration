@@ -3,6 +3,12 @@
 <head>
     <title>CMS</title>
     <!-- styles -->
+    <style is="custom-style">
+        @font-face {
+            font-family: GMsanC;
+            src: url(assets/GMsanC_Reg.otf);
+        }
+    </style>
     <% _.each(styles, function(styleTag) { %>
         <%= styleTag %>
     <% }); %>

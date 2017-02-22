@@ -51,6 +51,7 @@
     };
 
     cmsApp.get('/', handleCmsPageRequest);
+    cmsApp.use('/assets', express.static(path.join(__dirname, 'assets')));
 
     nconf.file(path.join(__dirname, 'config.json'));
     cmsHost = nconf.get('serverHost');
