@@ -13,12 +13,20 @@
     var cmsHost, cmsPort, cmsUrl, cmsServer;
 
     var handleCmsPageRequest = function (request, response) {
+        var integrationRequest, preferenceName;
         var token = nconf.get('accessToken');
+        var preferences = nconf.get('preferences');
         var url = nconf.get('integrationJsonUrl') +
             '?token=' + encodeURIComponent(token) +
             '&parent=' + encodeURIComponent(cmsUrl);
 
-        var integrationRequest = {
+        for (preferenceName in preferences) {
+            if (preferences.hasOwnProperty(preferenceName)) {
+                url += '&' + encodeURIComponent(preferenceName) + '=' + encodeURIComponent(preferences[preferenceName]);
+            }
+        }
+
+        integrationRequest = {
             url:  url,
             json: true
         };
