@@ -1,10 +1,7 @@
 {
-    "accessToken": "eyJhbGciOiJTSEExd2l0aFJTQSIsInR5cCI6IkpPU0UiLCJjdHkiOiJqc29uIiwieDV0IjoiYU1ZY1ZjdW9MSjc2dk5xYXBrQXFINDVuNmJBPSJ9.eyJpc3MiOiJhcHBzbmdlbiIsInN1YiI6IndpZGdldDp1cm46YXBwOnRnYW06Z2FtLXF1b3RlLWhlYWRlciIsImV4cCI6MTQ5MDQ0NTU2MTgzOSwiaWF0IjoxNDg3ODUzNTYxODM5LCJqdGkiOiIyMmY2OTZmZi1iMzJlLTRlZWYtOGFlYS05YWQyYzE5ZjJjM2QiLCJhdWQiOnsidXNlciI6ImRldmVsb3BlckBnbG9iZWFuZG1haWwuY29tIiwib3JnYW5pemF0aW9uIjoidXJuOm9yZzp0Z2FtIiwidXNlclJvbGVzIjpbIlJPTEVfQURNSU4iLCJST0xFX0RFVkVMT1BFUiJdLCJkb21haW5zIjpbImh0dHBzOi8vcWEuYXBwc25nZW4uY29tIl19LCJ0eXAiOiJhdCJ9.CJJKrNEa8F4r+h2TFtb6592KWZdpajR5svVrP1mHbtKWn/XMMHoADwF5LwGUxhboahA8v0a88in8qZMSRWWU+mjVhGQzeP9QQceC1xzSI2QFQqo6ANxuo83eN0D/7b7wDPNvAivhRvUdnenK08ktBlPfvU/ccRjJBMeNK3iZjxw=",
-    "integrationJsonUrl": "https://qa.appsngen.com/viewer/content/widgets/urn%3Aapp%3Atgam%3Agam-quote-header/0.0.19.1/integration.json",
+    "accessToken": "eyJhbGciOiJTSEExd2l0aFJTQSIsInR5cCI6IkpPU0UiLCJjdHkiOiJqc29uIiwieDV0IjoiYU1ZY1ZjdW9MSjc2dk5xYXBrQXFINDVuNmJBPSJ9.eyJpc3MiOiJhcHBzbmdlbiIsInN1YiI6IndpZGdldDp1cm46YXBwOnRnYW06ZXRmLXNlY3Rpb24iLCJleHAiOjE0OTA2MjgyMjMzMjksImlhdCI6MTQ4ODAzNjIyMzMyOSwianRpIjoiNzRkODYwNmUtMjE4Yi00NzYyLWFkYzgtMWU4MzdhNTJjZjg3IiwiYXVkIjp7InVzZXIiOiJkZXZlbG9wZXJAZ2xvYmVhbmRtYWlsLmNvbSIsIm9yZ2FuaXphdGlvbiI6InVybjpvcmc6dGdhbSIsInVzZXJSb2xlcyI6WyJST0xFX0FETUlOIiwiUk9MRV9ERVZFTE9QRVIiXSwiZG9tYWlucyI6WyJodHRwczovL3FhLmFwcHNuZ2VuLmNvbSJdfSwidHlwIjoiYXQifQ==.aXdu8/+jvRZHoKBqZZ3R2V+soc6xQGCYOEjd/GuoA7TleaBNUYMNPu/XMKBGB92ORLH/kZdQszvDKgivaVStvG2NFsg6jCG9X6GxSJjM8r/o1Jy4L64oEGKYfJyJUAzLKa5sJA69JzMQ/8PI3Pvhum3qaN30q2oTAGbKOSMG3bg=",
+    "integrationJsonUrl": "https://qa.appsngen.com/viewer/content/widgets/urn%3Aapp%3Atgam%3Aetf-section/0.0.15.1/integration.json",
     "serverHost": "127.0.0.1",
     "serverPort": "18888",
-    "preferences": {
-        "symbol": "IBM.N",
-        "symbology": "RIC"
-    }
+    "preferences": {}
 }

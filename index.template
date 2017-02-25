@@ -26,6 +26,12 @@
         </div>
     <% }); %>
 
+    <script>
+        window.addEventListener('ngn-single-instrument-selected', function (event) {
+            alert('Symbol: ' + event.detail.symbol + '\nSymbology: ' + event.detail.symbology);
+        });
+    </script>
+
     <!-- scripts -->
     <% _.each(scripts, function(scriptTag) { %>
         <%= scriptTag %>
