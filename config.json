@@ -1,10 +1,10 @@
 {
     "accessToken": "eyJhbGciOiJTSEExd2l0aFJTQSIsInR5cCI6IkpPU0UiLCJjdHkiOiJqc29uIiwieDV0IjoiYU1ZY1ZjdW9MSjc2dk5xYXBrQXFINDVuNmJBPSJ9.eyJpc3MiOiJhcHBzbmdlbiIsInN1YiI6IndpZGdldDp1cm46YXBwOnRnYW06ZXRmLXByb2ZpbGUiLCJleHAiOjE0OTA4ODY4NzE2NjAsImlhdCI6MTQ4ODI5NDg3MTY2MCwianRpIjoiNzAxM2UxM2UtM2Y5Mi00MTRmLTg0YTctNzI2OGVhZTk1ODU3IiwiYXVkIjp7InVzZXIiOiJkZXZlbG9wZXJAZ2xvYmVhbmRtYWlsLmNvbSIsIm9yZ2FuaXphdGlvbiI6InVybjpvcmc6dGdhbSIsInVzZXJSb2xlcyI6WyJST0xFX0FETUlOIiwiUk9MRV9ERVZFTE9QRVIiXSwiZG9tYWlucyI6WyJodHRwczovL3FhLmFwcHNuZ2VuLmNvbSJdfSwidHlwIjoiYXQifQ==.CLzG1LCxstqlAjG+4heW48Bn1OuqISs3eL5fUE4ye7JXCTfQh+9hR3b88GZqrdUpzjSZv28XHuWMLxbxmYuHW22MvPuub1LAm/kstD+Zfdcp1cB6SLuIXRhAimxBJaZxabqEOkm6irun25lCkhrB6iSeVsjLUXHSatxmFV/J6CU=",
-    "integrationJsonUrl": "https://qa.appsngen.com/viewer/content/widgets/urn%3Aapp%3Atgam%3Aetf-profile/0.0.24.1/integration.json",
+    "integrationJsonUrl": "https://qa.appsngen.com/viewer/content/widgets/urn%3Aapp%3Atgam%3Aetf-profile/0.0.27.1/integration.json",
     "serverHost": "127.0.0.1",
     "serverPort": "18888",
     "preferences": {
-        "symbol": "HIU-T",
+        "symbol": "XIU-T",
         "symbology": "GAM"
     }
 }
