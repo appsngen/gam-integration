@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>CMS</title>
+	<link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <!-- styles -->
     <style is="custom-style">
         @font-face {
