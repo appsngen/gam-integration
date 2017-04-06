@@ -62,13 +62,18 @@
         return arg = '--silent';
     }).length > 0;
 
+    var overrideParentArgs = process.argv.filter(function (arg) {
+        return arg.startsWith('--parent=');
+    });
+    var overriddenParent = overrideParentArgs[0] && overrideParentArgs[0].split('=')[1];
+
     cmsApp.get('/', handleCmsPageRequest);
     cmsApp.use('/assets', express.static(path.join(__dirname, 'assets')));
 
     nconf.file(path.join(__dirname, 'config.json'));
     cmsHost = nconf.get('serverHost');
     cmsPort = nconf.get('serverPort');
-    cmsUrl = 'http://' + cmsHost + ':' + cmsPort;
+    cmsUrl = overriddenParent || 'http://' + cmsHost + ':' + cmsPort;
 
     cmsServer = http.createServer(cmsApp);
     cmsServer.listen(cmsPort, cmsHost);
