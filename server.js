@@ -58,6 +58,10 @@
         });
     };
 
+    var doNotOpenLink = process.argv.filter(function (arg) {
+        return arg = '--silent';
+    }).length > 0;
+
     cmsApp.get('/', handleCmsPageRequest);
     cmsApp.use('/assets', express.static(path.join(__dirname, 'assets')));
 
@@ -70,7 +74,10 @@
     cmsServer.listen(cmsPort, cmsHost);
     cmsServer.on('listening', function () {
         console.log('cms: ' + cmsUrl);
-        opn(cmsUrl);
+
+        if (doNotOpenLink === false) {
+            opn(cmsUrl);
+        }
     });
     cmsServer.on('error', function (error) {
         console.log('cms: unable to start server', cmsUrl, error);
