@@ -20,7 +20,7 @@
         <%= importTag %>
     <% }); %>
 </head>
-<body style="margin:0 auto; max-width: 900px;">
+<body style="margin:0 auto; max-width: 900px; padding: 0px 18px;">
     <!-- widgets -->
     <% _.each(widgets, function(widget) { %>
         <div>
