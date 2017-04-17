@@ -5,6 +5,7 @@
     "serverPort": "18888",
     "preferences": {
         "symbol": "HGD-T",
-        "symbology": "GAM"
+        "symbology": "GAM",
+        "etfProfileLinkTemplate": "https://www.google.com/?q={{symbol}}"
     }
 }
