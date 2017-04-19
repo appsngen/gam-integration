@@ -1,6 +1,6 @@
 {
-    "accessToken": "",
-    "integrationJsonUrl": "",
+    "accessToken": "eyJhbGciOiJTSEExd2l0aFJTQSIsInR5cCI6IkpPU0UiLCJjdHkiOiJqc29uIiwieDV0IjoiYU1ZY1ZjdW9MSjc2dk5xYXBrQXFINDVuNmJBPSJ9.eyJpc3MiOiJhcHBzbmdlbiIsInN1YiI6IndpZGdldDp1cm46YXBwOnRnYW06ZXRmLXNjcmVlbmVyIiwiZXhwIjoxNDk1MTg5NTgwMjExLCJpYXQiOjE0OTI1OTc1ODAyMTEsImp0aSI6ImUwYTY5N2RmLWY1MzEtNGY0OS04ZDMxLTU1YjdhYWRhYjIyOSIsImF1ZCI6eyJ1c2VyIjoiZGV2ZWxvcGVyQGdsb2JlYW5kbWFpbC5jb20iLCJvcmdhbml6YXRpb24iOiJ1cm46b3JnOnRnYW0iLCJ1c2VyUm9sZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfREVWRUxPUEVSIl0sImRvbWFpbnMiOlsiaHR0cHM6Ly9kZXYuYXBwc25nZW4uY29tIiwiaHR0cHM6Ly9jZG4tZGV2LmFwcHNuZ2VuLmNvbS92aWV3ZXIiXX0sInR5cCI6ImF0In0=.S2tQPTFUVXQqPtGn4L+2o2B4Ezp0BHik1zzLdU3nL4qYfURAtPbMyR75nJzdy2Mg3RJOptNo9WGTaWvD9MXB/uvlAr5zA+H+8zbZjmj4B2vFKgQFgN8PL/4LMDJL/k0IwNr5Z8z0NJFdUJmMNAfie9eSJ1Qjx7rr2Znj6Fwbpvo=",
+    "integrationJsonUrl": "https://cdn-dev.appsngen.com/viewer/content/widgets/urn%3Aapp%3Atgam%3Aetf-screener/0.0.2.1/integration.json",
     "serverHost": "127.0.0.1",
     "serverPort": "18888",
     "preferences": {}
